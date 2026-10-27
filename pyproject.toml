@@ -1,0 +1,13 @@
+[project]
+name = "kulturpool-verifakecation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.162.0",
+]
+
+[tool.ruff]
+line-length = 120
+extend-select = ["I"]
